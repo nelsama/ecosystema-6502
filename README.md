@@ -35,7 +35,7 @@ Librerías (software)
 
 Aplicaciones
 - monitor_6502_TN-9k_16k — https://github.com/nelsama/monitor_6502_TN-9k_16k  
-  Monitor para la placa Tang Nano 9K. "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista una placa "16k".
+  Monitor para la placa Tang Nano 9K. "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista otro modelo de placa.
 
 Objetivo
 - Tener un punto único donde nuevos usuarios puedan encontrar el hardware, librerías y aplicaciones compatibles.
@@ -70,4 +70,5 @@ Contribuir
 - Revisa el archivo CONTRIBUTING.md para normas de estilo, pruebas y cómo proponer nuevas librerías o apps.
 
 Licencia
-- Recomiendo MIT para código y documentación, salvo que quieras otra. (Especificar LICENSE en cada repo si aún no tienen).
+- Este repositorio hub está licenciado bajo MIT.
+- Los repositorios vinculados pueden usar licencias distintas; revisa el archivo LICENSE en cada repositorio para conocer sus términos.
