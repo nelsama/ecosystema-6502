@@ -2,6 +2,12 @@
 
 Este repositorio actúa como índice/meta‑repo para el ecosistema alrededor del hardware principal: FPGA 6502 16K. Aquí centralizamos enlaces, documentación y guía rápida para los repositorios de hardware y software relacionados.
 
+Plataforma objetivo (hardware)
+- Tang Nano 9K (placa FPGA TN-9K) — https://github.com/nelsama/fpga-6502-16k
+
+Nota importante sobre nomenclatura:
+- Muchas de las imágenes y repositorios usan la marca "9k" o "16k" en su nombre. "TN-9k" o "Tang Nano 9K" se refieren a la placa FPGA (Tang Nano, modelo 9K). Cuando aparece "16k" en un nombre de repositorio o imagen, se refiere al tamaño de la ROM de firmware (16 KiB) y no a otro modelo de placa.
+
 Repositorio principal (hardware)
 - FPGA 6502 16K — https://github.com/nelsama/fpga-6502-16k
 
@@ -29,7 +35,7 @@ Librerías (software)
 
 Aplicaciones
 - monitor_6502_TN-9k_16k — https://github.com/nelsama/monitor_6502_TN-9k_16k  
-  Monitor / firmware para el sistema (imagen para 9k/16k).
+  Monitor para la placa Tang Nano 9K. "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista una placa "16k".
 
 Objetivo
 - Tener un punto único donde nuevos usuarios puedan encontrar el hardware, librerías y aplicaciones compatibles.
