@@ -41,15 +41,65 @@ Objetivo
 - Tener un punto único donde nuevos usuarios puedan encontrar el hardware, librerías y aplicaciones compatibles.
 - Dar recomendaciones de integración, despliegue y contribución.
 
-Quickstart — clonar y usar
-- Clonar sólo el meta-repo (documentación/índice):
-  git clone https://github.com/nelsama/ecosystema-6502.git
+## Quickstart — clonar y usar
 
-- Añadir submódulos (opcional): si quieres mantener referencias versionadas desde el meta-repo:
-  git submodule add https://github.com/nelsama/fpga-6502-16k hardware/fpga-6502-16k
-  git submodule add https://github.com/nelsama/6581_SID-6502-cc65 libs/6581_SID-6502-cc65
-  ...
-  (repite para cada repo y organiza en `hardware/`, `libs/`, `apps/`)
+### Opción 1: Clonar solo el meta-repo (documentación/índice)
+
+```bash
+git clone https://github.com/nelsama/ecosistema-6502.git
+cd ecosistema-6502
+```
+
+Este comando descarga solo el meta-repositorio con la documentación y scripts de ayuda.
+
+### Opción 2: Agregar todos los proyectos como submódulos
+
+Si quieres trabajar con todos los proyectos del ecosistema en una estructura organizada, usa los scripts incluidos:
+
+**En Linux/Mac/Git Bash:**
+```bash
+chmod +x add_submodules.sh
+./add_submodules.sh
+```
+
+**En Windows (CMD o PowerShell):**
+```cmd
+add_submodules.bat
+```
+
+Esto creará la siguiente estructura:
+```
+ecosistema-6502/
+├── hardware/
+│   └── fpga-6502-16k/
+├── libs/
+│   ├── 6581_SID-6502-cc65/
+│   ├── i2c-6502-cc65/
+│   ├── sdcard-spi-6502-cc65/
+│   └── ...
+└── apps/
+    └── monitor_6502_TN-9k_16k/
+```
+
+Luego confirma los cambios:
+```bash
+git add .gitmodules hardware/ libs/ apps/
+git commit -m "Agregar submódulos del ecosistema"
+git push
+```
+
+### Opción 3: Clonar con submódulos (si ya están configurados)
+
+Si el repositorio ya tiene los submódulos configurados, puedes clonar todo de una vez:
+
+```bash
+git clone --recurse-submodules https://github.com/nelsama/ecosistema-6502.git
+```
+
+### Opción 4: Clonar proyectos individuales
+
+Si solo necesitas un proyecto específico, clónalo directamente desde su repositorio (ver la lista de Hardware, Librerías y Aplicaciones arriba).
+
 
 Sugerencias de topics (tags) para cada repo
 - topics recomendados: `6502`, `cc65`, `fpga`, `embedded`, `assembly`, `spi`, `i2c`, `sdcard`, `ssd1306`
