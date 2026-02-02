@@ -4,7 +4,7 @@ echo.
 
 git submodule add https://github.com/nelsama/fpga-6502-16k hardware/fpga-6502-16k
 
-echo Agregando librerias...
+echo Agregando librerías...
 git submodule add https://github.com/nelsama/6581_SID-6502-cc65 libs/6581_SID-6502-cc65
 git submodule add https://github.com/nelsama/eprom24c-i2c-6502-cc65 libs/eprom24c-i2c-6502-cc65
 git submodule add https://github.com/nelsama/i2c-6502-cc65 libs/i2c-6502-cc65
