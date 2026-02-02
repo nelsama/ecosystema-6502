@@ -1,5 +1,5 @@
 @echo off
-echo Agregando submodulos al ecosistema-6502...
+echo Agregando submódulos al ecosistema-6502...
 echo.
 
 git submodule add https://github.com/nelsama/fpga-6502-16k hardware/fpga-6502-16k
@@ -20,10 +20,10 @@ echo Agregando aplicaciones...
 git submodule add https://github.com/nelsama/monitor_6502_TN-9k_16k apps/monitor_6502_TN-9k_16k
 
 echo.
-echo ¡Submodulos agregados exitosamente!
+echo ¡Submódulos agregados exitosamente!
 echo.
 echo Siguiente paso: 
 echo   git add .gitmodules hardware/ libs/ apps/
-echo   git commit -m "Agregar submodulos del ecosistema"
+echo   git commit -m "Agregar submódulos del ecosistema"
 echo   git push
 pause
