@@ -43,6 +43,10 @@ Aplicaciones
   **Monitor** programa de firmware de bajo nivel para la placa [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html). Un monitor permite inspeccionar memoria, ejecutar código y cargar aplicaciones en el sistema 6502. "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista otro modelo de placa.
 
 Aplicaciones para el monitor
+
+Dentro del proyecto del monitor existen varios ejemplos de aplicaciones. Entre ellos destaca un **SID player** para reproducir música del Commodore 64. Consulta el [README del monitor](https://github.com/nelsama/monitor_6502_TN-9k_16k) para conocer todos los ejemplos disponibles y más detalles.
+
+Otras aplicaciones que pueden correr en el monitor:
 - calcFloatTM1638-4mon — https://github.com/nelsama/calcFloatTM1638-4mon  
   Calculadora para TM1638 con operaciones de enteros y flotantes. Corre en el monitor.
 - calcIntegerTM1638-4mon — https://github.com/nelsama/calcIntegerTM1638-4mon  
