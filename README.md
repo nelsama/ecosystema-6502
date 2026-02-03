@@ -6,7 +6,7 @@ Este repositorio actúa como índice/metarepo para el ecosistema alrededor del h
 
 Desde mi pasión por la retrocomputación y en especial procesadores como el 6502 y el Z80, he decidido desarrollar un proyecto basado en 6502 sobre FPGA. Mi objetivo es orientar el proyecto hacia la enseñanza de la programación del 6502, pero en esa búsqueda, apoyado por herramientas de IA, he ido construyendo distintas piezas de software para el hardware que he generado.
 
-El FPGA elegido fue el **Tang Nano 9K**, principalmente por su costo accesible, pensando en llegar a una mayor cantidad de público interesado. Dejo este proyecto público con la esperanza de que también sirva a otras personas entusiastas de la retrocomputación y el 6502.
+El FPGA elegido fue el **Tang Nano 9K**, principalmente por su costo accesible, pensando en llegar a una mayor cantidad de público interesado. El toolchain elejido es el [CC65](https://github.com/cc65/cc65), una herramienta madura que permite la programación tanto en C como en Assembler. Dejo este proyecto público con la esperanza de que también sirva a otras personas entusiastas de la retrocomputación y el 6502.
 
 ## Plataforma objetivo (hardware)
 
