@@ -1,9 +1,14 @@
-# Ecosistema FPGA 6502 (meta-repo)
+﻿# Ecosistema FPGA 6502 (meta-repo)
 
-Este repositorio actúa como índice/meta‑repo para el ecosistema alrededor del hardware principal: FPGA 6502 16K. Aquí centralizamos enlaces, documentación y guía rápida para los repositorios de hardware y software relacionados.
+Este repositorio actúa como índice/metarepo para el ecosistema alrededor del hardware principal: FPGA 6502 16K. Aquí centralizamos enlaces, documentación y guía rápida para los repositorios de hardware y software relacionados.
 
-Plataforma objetivo (hardware)
-- [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html) (placa FPGA TN-9K) — https://github.com/nelsama/fpga-6502-16k
+## Acerca del proyecto
+
+Desde mi pasión por la retrocomputación y en especial procesadores como el 6502 y el Z80, he decidido desarrollar un proyecto basado en 6502 sobre FPGA. Mi objetivo es orientar el proyecto hacia la enseñanza de la programación del 6502, pero en esa búsqueda, apoyado por herramientas de IA, he ido construyendo distintas piezas de software para el hardware que he generado.
+
+El FPGA elegido fue el **Tang Nano 9K**, principalmente por su costo accesible, pensando en llegar a una mayor cantidad de público interesado. Dejo este proyecto público con la esperanza de que también sirva a otras personas entusiastas de la retrocomputación y el 6502.
+
+## Plataforma objetivo (hardware)
 
 Nota importante sobre nomenclatura:
 - Muchas de las imágenes y repositorios usan la marca "9k" o "16k" en su nombre. "TN-9k" o "[Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html)" se refieren a la placa FPGA (Tang Nano, modelo 9K). Cuando aparece "16k" en un nombre de repositorio o imagen, se refiere al tamaño de la ROM de firmware (16 KiB) y no a otro modelo de placa.
