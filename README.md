@@ -35,7 +35,7 @@ Librerías (software)
 
 Aplicaciones
 - monitor_6502_TN-9k_16k — https://github.com/nelsama/monitor_6502_TN-9k_16k  
-  **Monitor** (programa de firmware de bajo nivel, no una pantalla física) para la placa [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html). Un monitor permite inspeccionar memoria, ejecutar código y cargar aplicaciones en el sistema 6502. "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista otro modelo de placa.
+  **Monitor** programa de firmware de bajo nivel para la placa [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html). Un monitor permite inspeccionar memoria, ejecutar código y cargar aplicaciones en el sistema 6502. "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista otro modelo de placa.
 
 Aplicaciones para el monitor
 - calcFloatTM1638-4mon — https://github.com/nelsama/calcFloatTM1638-4mon  
