@@ -37,6 +37,14 @@ Aplicaciones
 - monitor_6502_TN-9k_16k — https://github.com/nelsama/monitor_6502_TN-9k_16k  
   Monitor para la placa [Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html). "TN-9k" indica la plataforma (Tang Nano, modelo 9K). "16k" indica que la imagen está pensada para una ROM de firmware de 16 KiB (tamaño de la imagen), no que exista otro modelo de placa.
 
+Aplicaciones para el monitor
+- calcFloatTM1638-4mon — https://github.com/nelsama/calcFloatTM1638-4mon  
+  Calculadora para TM1638 con operaciones de enteros y flotantes. Corre en el monitor.
+- calcIntegerTM1638-4mon — https://github.com/nelsama/calcIntegerTM1638-4mon  
+  Calculadora para TM1638 con operaciones solo de enteros. Corre en el monitor.
+- CExampleTM1638-4mon — https://github.com/nelsama/CExampleTM1638-4mon  
+  Ejemplo/plantilla en C para programar el monitor con TM1638.
+
 Objetivo
 - Tener un punto único donde nuevos usuarios puedan encontrar el hardware, librerías y aplicaciones compatibles.
 - Dar recomendaciones de integración, despliegue y contribución.
@@ -77,13 +85,17 @@ ecosistema-6502/
 │   ├── i2c-6502-cc65/
 │   ├── sdcard-spi-6502-cc65/
 │   └── ...
-└── apps/
-    └── monitor_6502_TN-9k_16k/
+├── apps/
+│   └── monitor_6502_TN-9k_16k/
+└── apps-monitor/
+    ├── calcFloatTM1638-4mon/
+    ├── calcIntegerTM1638-4mon/
+    └── CExampleTM1638-4mon/
 ```
 
 Luego confirma los cambios:
 ```bash
-git add .gitmodules hardware/ libs/ apps/
+git add .gitmodules hardware/ libs/ apps/ apps-monitor/
 git commit -m "Agregar submódulos del ecosistema"
 git push
 ```
