@@ -18,4 +18,9 @@ git submodule add https://github.com/nelsama/uart-6502-cc65 libs/uart-6502-cc65
 # Aplicaciones
 git submodule add https://github.com/nelsama/monitor_6502_TN-9k_16k apps/monitor_6502_TN-9k_16k
 
+# Aplicaciones para el monitor
+git submodule add https://github.com/nelsama/calcFloatTM1638-4mon apps-monitor/calcFloatTM1638-4mon
+git submodule add https://github.com/nelsama/calcIntegerTM1638-4mon apps-monitor/calcIntegerTM1638-4mon
+git submodule add https://github.com/nelsama/CExampleTM1638-4mon apps-monitor/CExampleTM1638-4mon
+
 echo "Submódulos añadidos. No olvides: git add .gitmodules <paths>, git commit -m 'Añadir submódulos', git push"

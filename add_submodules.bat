@@ -19,11 +19,16 @@ git submodule add https://github.com/nelsama/uart-6502-cc65 libs/uart-6502-cc65
 echo Agregando aplicaciones...
 git submodule add https://github.com/nelsama/monitor_6502_TN-9k_16k apps/monitor_6502_TN-9k_16k
 
+echo Agregando aplicaciones para el monitor...
+git submodule add https://github.com/nelsama/calcFloatTM1638-4mon apps-monitor/calcFloatTM1638-4mon
+git submodule add https://github.com/nelsama/calcIntegerTM1638-4mon apps-monitor/calcIntegerTM1638-4mon
+git submodule add https://github.com/nelsama/CExampleTM1638-4mon apps-monitor/CExampleTM1638-4mon
+
 echo.
 echo ¡Submódulos agregados exitosamente!
 echo.
 echo Siguiente paso: 
-echo   git add .gitmodules hardware/ libs/ apps/
+echo   git add .gitmodules hardware/ libs/ apps/ apps-monitor/
 echo   git commit -m "Agregar submódulos del ecosistema"
 echo   git push
 pause
