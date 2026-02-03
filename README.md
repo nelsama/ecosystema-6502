@@ -134,3 +134,9 @@ Contribuir
 Licencia
 - Este repositorio hub está licenciado bajo MIT.
 - Los repositorios vinculados pueden usar licencias distintas; revisa el archivo LICENSE en cada repositorio para conocer sus términos.
+
+## 💖 Apóyame
+
+Si disfrutas de este proyecto, considera apoyarme:
+
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Apóyame-FF5E5B?logo=kofi&logoColor=white&style=for-the-badge)](https://ko-fi.com/nelsonfigueroa2k)
